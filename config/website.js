@@ -20,7 +20,7 @@ module.exports = {
   googleAnalyticsID: 'UA-139172809-1',
 
   // Manifest and Progress color
-  themeColor: tailwind.colors.orange,
+  themeColor: tailwind.colors.red,
   backgroundColor: tailwind.colors.blue,
 }
  // delete Twitter & facebook
