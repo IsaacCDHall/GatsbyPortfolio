@@ -10,7 +10,7 @@ module.exports = {
   siteUrl: 'https://isaachall.dev', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logo.png', // Used for SEO and manifest
-  siteDescription: 'Parallax animatated single page portfolio',
+  siteDescription: 'Parallax animated single-page Portfolio of Isaac Hall',
   author: 'Isaac Hall', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
