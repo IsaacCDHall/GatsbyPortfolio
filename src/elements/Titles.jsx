@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { rotateAnimation } from '../styles/animations'
 import triangle from '../images/triangle.svg'
+import logoRed from '../images/logoTextRed.svg'
 
 export const Title = styled.h1`
   ${tw`text-4xl lg:text-4xl font-serif text-white mb-8 tracking-wide relative inline-block`};
@@ -16,6 +17,20 @@ export const Title = styled.h1`
     ${rotateAnimation('4s')};
     left: -60px;
     top: 5px;
+    
+  }
+  &:after {
+    content: '';
+    width: 200px;
+    height: 200px;
+    background: url(${logoRed});
+    position: absolute;
+    background-size: 50px;
+    ${rotateAnimation('15s')};
+    left: -0px;
+    top: -75px;
+    background-repeat:no-repeat;
+    z-index: -1;
   }
 `
 

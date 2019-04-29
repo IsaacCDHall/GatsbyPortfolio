@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
+  "name": "GatsbyPortfolio",
+  "description": "Parallax animatated single page portfolio powered by react-spring, TailwindCSS.",
   "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "Isaac Hall <isaachalldev@gmail.com> (https://isaachall.dev)",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -30,7 +30,6 @@
   },
   "keywords": [
     "gatsby",
-    "starter",
     "portfolio"
   ],
   "scripts": {
@@ -38,7 +37,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
-    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
+    "fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "lint:ci": "yarn lint --format junit -o results/eslint/result.xml"
   },
   "devDependencies": {
@@ -53,11 +52,11 @@
     "prettier": "^1.17.0"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/IsaacCDHall/GatsbyPortfolio",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
+    "url": "https://github.com/IsaacCDHall/GatsbyPortfolio/issues"
   },
-  "homepage": "https://cara.lekoarts.de"
+  "homepage": "https://isaachall.dev"
 }
