@@ -68,38 +68,62 @@ const Index = () => (
         <BigTitle>
           Hey, <br /> I'm Isaac Hall.
         </BigTitle>
-        <Subtitle>I am an aspiring developer currently getting my hands dirty with Javascript frameworks.</Subtitle>
+        <Subtitle>I am a software developer currently getting my hands dirty with all things Javascript!</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="SpongeBob Taproom"
-            link="https://github.com/IsaacCDHall/Kegger-React"
+            title="ModOp Blogs"
+            link="https://www.modop.com/blog/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            My most recent work practicing state management in React.js.
+            <p>Production Deployment</p>
+
+            <p>Built during my time with ModOp</p>
+
+            <p>Fully responsive across desktop, tablet, and mobile</p>
+
+            <p>My contribution to the site was the modOp /blog page and all article highlight pages (Click an article!)</p>
           </ProjectCard>
           <ProjectCard
             title="Du son Jardin"
-            link="https://github.com/IsaacCDHall/du-son-Jardin"
+            link="https://dusonjardin.netlify.com"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I lead a team to create a music visualizer/ MIDI board.
+            <p>Custom project from built from scratch within Angular</p>
+
+            <p>Showcasing custom design in figma/sketch</p>
+
+            <p>Fully responsive across desktop, tablet, and mobile</p>
+
+            <p>Music visualizer/ MIDI board</p>
           </ProjectCard>
           <ProjectCard
-            title="Goyard"
-            link="https://github.com/IsaacCDHall/GoHardGoyard"
+            title="Password Generator"
+            link="https://password-gen-express.herokuapp.com/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Replica of Goyard's Home Page using just CSS and HTMl
+            <p>My first implemention and exploration of a full stack application</p>
+
+            <p>Utilizes ExpressJS in Node.js with Create React on the client side</p>
+
+            <p>API response generates new passwords</p>
+
+            <p>Hosted with Heroku</p>
           </ProjectCard>
           <ProjectCard
-            title="DocTalk"
-            link="https://github.com/IsaacCDHall/DocTalk"
+            title="TapRoom"
+            link="https://taproomstate.netlify.com/#/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            Find local doctors - utilizes BetterDoctor api call.
+            <p>Fun project built during my time at Epicodus</p>
+
+            <p>Utilizes State Management in React</p>
+
+            <p>CRUD functionality</p>
+
+            <p>Static Hosting with Netlify</p>
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -114,7 +138,10 @@ const Index = () => (
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I am an aspiring developer currently getting my hands dirty with Javascript frameworks. My experience in marketing, branding, and developing teams inspires me to create beautiful user experiences and efficient apps. I am excited to elevate my skills to the next level through code.
+           <p>My experience in marketing, branding, and developing teams inspires me to create applications that users actually enjoy using. I am excited to elevate my skills to the next level through code.</p>
+          <p>To visit the source code for the projects above, please visit my <a href="https://github.com/IsaacCDHall">Github</a></p>
+          <p>I'm always open to the opportunity to talk about my favorite hobby, software development, or any of my other hobbies. If you also like talking code or maybe competitive knitting, I encourage you to reach out!</p>
+          <p>Scroll down for my contact information</p>
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -128,8 +155,7 @@ const Index = () => (
         </Inner>
         <Footer>
           &copy; 2019 Isaac Hall.{' '}
-          <a href="https://github.com/IsaacCDHall/GatsbyPortfolio">Github Repository</a>. Inspired by{' '}
-          <a href="https://www.awwwards.com/websites/parallax/">awwards&trade; </a>Parallax designs.
+          <a href="https://github.com/IsaacCDHall/GatsbyPortfolio">Source</a>
         </Footer>
       </Contact>
     </Parallax>
