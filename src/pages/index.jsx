@@ -140,7 +140,7 @@ const Index = () => (
         <AboutDesc>
            <p>My experience in marketing, branding, and developing teams inspires me to create applications that users actually enjoy using. I am excited to elevate my skills to the next level through code.</p>
           <p>To visit the source code for the projects above, please visit my <a href="https://github.com/IsaacCDHall">Github</a></p>
-          <p>I'm always open to the opportunity to talk about my favorite hobby, software development, or any of my other hobbies. If you also like talking code or maybe competitive knitting, I encourage you to reach out!</p>
+          <p>I'm always open to the opportunity to talk about my favorite hobby, software development, or any of my other hobbies. If you also like talking code, or maybe competitive knitting, I encourage you to reach out!</p>
           <p>Scroll down for my contact information</p>
         </AboutDesc>
       </About>
