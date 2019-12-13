@@ -82,9 +82,9 @@ const Index = () => (
 
             <p>Built during my time with ModOp</p>
 
-            <p>Fully responsive across desktop, tablet, and mobile</p>
+            <p>Clean and easy CI and database manipulation with graphql and WP Migrate DB</p>
 
-            <p>My contribution to the site was the modOp /blog page and all article highlight pages (Click an article!)</p>
+            <p>Mobile first and responsive design(see ModOp.com/blogs and click any article.  Click author names to see modal)</p>
           </ProjectCard>
           <ProjectCard
             title="Du son Jardin"
